@@ -1,0 +1,26 @@
+.Girl{
+    height: 432px;
+   margin-top: 90px;
+   position: relative;
+   background-position: center;
+    
+}
+.girl{color: #FFF;
+    font-family: 'Yesteryear', cursive;
+    font-size:7.5rem;
+    font-weight: 400;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    text-transform: capitalize;
+    max-width: 688px;
+    min-width: 300px;
+    line-height: 223.678px;}
+.iconGirle{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    z-index:0;
+}

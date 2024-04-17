@@ -1,0 +1,94 @@
+.NavBar{
+    display: flex;
+    justify-content: end;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
+    padding: 4.708vh 5.1244vw;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap:50px;
+    margin-top:11px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.nav .btn,.leftdiv .btn {
+    width: 157.341px;
+height: 44.062px;
+background-color: #DF6951;
+color:#fff;
+border:none;
+border-radius:3px;
+}
+.navbarScroll{
+    background-color:#181e4b;
+}
+.leftdiv ul{
+    list-style: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10.5885vh;
+}
+.leftdiv a{
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 400;
+    
+}
+
+.leftdiv{
+    
+    width: 240px;
+    height: calc(100% - 36px);
+background: #FFF;
+display:none;
+position: absolute;
+top:36px;
+z-index: 4;
+}
+.x{
+    background: none;
+    border: none;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.leftdiv .btn{
+    margin-top:12.9297vh;
+    margin-left:52px;
+}
+#menubtn{
+    background: none;
+    border: none;
+    display: none;
+}
+.active{
+  border-bottom:solid 3px  #DF6951;;
+ 
+}
+
+.Services{display: flex;}
+@media screen and (max-width:992px){
+    html{font-size: 10px;}
+    .nav ul,.nav .btn{display: none;}
+    #menubtn{display: block;}
+
+    .parentImage .text button{width: 125px;
+        height: 31px;}
+
+}

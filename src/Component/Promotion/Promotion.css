@@ -1,0 +1,110 @@
+.Promotion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5.1244vw;
+  
+}
+.Promotion h6{    
+color: #DF6951;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+margin-top: 145px;
+max-width:min-content
+
+}
+.Promotion h1{
+    color: #181E4B;
+    font-size: 2.4375rem;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 10px;
+    max-width: 593px;
+}
+.Promotion p{
+    color: #2F2F2F;
+    text-align:start;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    max-width: 541px;
+    margin-top: 25px;
+}
+
+    .Promotion button{
+       
+width: 169.377px;
+height: 56.416px;
+padding: 0px 12.566px  9.403px 0px;
+border-radius: 4px;
+background: #DF6951;
+color:#fff;
+box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+text-align: center;
+border: none;
+margin-top: 25px;
+    }
+    
+    .Promotionimg{
+        margin-top:109px ;
+      
+    }
+    .Promotionimg img{
+        width: 100%;
+      
+    }
+    .revers{
+        flex-direction: row-reverse;
+       justify-content:space-around;
+       gap: 100px;   
+    }
+    .revers button{display: none;}
+    .revers p{
+        max-width: 663px;
+max-height: 92px;
+line-height: 31px;
+    }
+    .PromotionNumber{display: flex;gap:80px ;margin-top:50px;justify-content:start;align-items: center;}
+    .PromotionText{display: flex; gap: 30px;margin-top:22px;justify-content:start;align-items: center;}
+    .PromotionNumber p{
+      text-align: center;
+       color: #525252;
+       font-size: 30px;
+       font-weight: 400;
+    }
+    .PromotionText p{
+       
+        color: #181E4B;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        max-width:max-content;
+        margin-top: 25px;}
+
+        @media screen and (max-width:992px){
+            .PromotionNumber p{margin-top: 60px;}
+            .revers{gap:0px}
+            
+              
+          
+        }
+        @media screen and (max-width:1273px){
+            
+            .Promotionimg img{
+               margin-top: -20%;
+              
+            }}
+        @media screen and (max-width:400px){
+            
+            .Promotionimg img{
+               margin-top: -30%;
+              
+            }}
+        
+        
+           
+            
+       
